@@ -1,0 +1,53 @@
+3주동안의 과제 정리
+<git에 코드를 처음 올릴 때>
+git init
+git add.
+git commit -m 'commit message'
+git push origin master
+git remote add origin [git repogistory path]
+git config - global user.name 'github name'
+git config - global user.email 'github email'
+
+<git에 있는 기존 코드에 추가로 업로드 할 때>
+git add.
+git commit -m 'commit message'
+git push origin master
+
+<추가적인 git 용어>
+git clone [git repogistory path]
+git checkout [git branch name]
+git branch -m
+git branch -d
+git branch -a
+git branch -r
+git pull
+git reset
+git stash
+git merge
+git rebase
+
+<VScode 용어 정리>
+ls
+ls -a
+cd [forder name]
+cd ..
+mkdir [folder name]
+rm -rf
+touch[file name]
+
+<추가적인 용어>
+pwd
+kill
+ps
+cp
+mv
+find
+which
+locate
+sudo
+chown
+vi
+
+시멘틱 마크업 = HTML문서를 작성 할 떄 의미를 잘 전달할 수 있게 도와주는 것
+css박스모델 = 페이지에서 나타나는 아이템들의 크기와 위치를 조정할 수 있는 것
+css flexbox = 박스가 커지거나 작아지는거에 대해 아이템들의 위치가 어떻게 변하는지 조정하는 것
