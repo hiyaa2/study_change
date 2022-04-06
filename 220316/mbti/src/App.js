@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import ReactLoading from 'react-loading';
-import PlusButtonComponent from './components/PlusButton';
-import MinusButtonComponent from './components/MinusButton';
+import { Routes, Route, Link } from "react-router-dom";
 
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Question from './Question';
+import Result from './Result';
+import Home from './Home';
 
 function LoadingPage() {
   return (
@@ -14,24 +18,13 @@ function LoadingPage() {
 }
 
 function App() {
-  const [loading, setLoading] = useState(true);
-  const [number, setNumber] = useState(0);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 1500);
-  }, []);
-
-  if (loading) return <LoadingPage/>;
-  //state
   return (
-    <div className="loading-wrapper">
-      <PlusButtonComponent number={number} setNumber={setNumber} />
-      <div>{number}</div> 
-      <MinusButtonComponent number={number} setNumber={setNumber} />
-    </div>
-  );
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="question" element={<Question />} />
+        <Route path="result" element={<Result />} />
+    </Routes>
+  )
 }
 
 
