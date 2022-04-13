@@ -12,9 +12,6 @@ function Question() {
 
     return (
         <div className='question-wrapper'>
-            <Link to='/result'>
-              <Button variant="outline-warning">결과보기</Button>
-            </Link>
             <Choice number={number} setNumber={setNumber} answer={answer} setAnswer={setAnswer}/>
             <div>{answer}</div>
         </div>

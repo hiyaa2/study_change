@@ -1,6 +1,7 @@
 const dummy = ['E','I','S','N','F','T','J','P'];
 
-function generateQuestion() {
+
+function generateQuestion(result) {
     const q = [];
     let temp = [];
 

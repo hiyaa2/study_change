@@ -1,8 +1,8 @@
+import { Button } from "react-bootstrap";
+
 function Result () {
     return (
-        <div>
-            축하드립니다!
-        </div>
+        <Button variant="outline-warning">결과보기</Button>
     )
 }
 

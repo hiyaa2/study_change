@@ -1,4 +1,5 @@
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import generateQuestion from "../GenerateQuestion/GenerateQuestion";
 
 function Choice({
@@ -8,10 +9,14 @@ function Choice({
     setAnswer,
 }) {
     const handleClick = (value) => () => {
-        alert('내 선택은 ' + value);
-        setAnswer([...answer,value]);
-        setNumber(number + 1);
+        if( setAnswer > 4 ){
+            <Link to='/result'></Link>
+        }
+    alert('내 선택은 ' + value);
+    setAnswer([...answer,value]);
+    setNumber(number + 1);
     }
+    
     return (
         <div>
             <div>question {number + 1}</div>
