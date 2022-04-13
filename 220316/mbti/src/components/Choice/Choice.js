@@ -2,6 +2,7 @@ import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import generateQuestion from "../GenerateQuestion/GenerateQuestion";
 
+
 function Choice({
     number,
     setNumber,
@@ -9,14 +10,17 @@ function Choice({
     setAnswer,
 }) {
     const handleClick = (value) => () => {
-        if( setAnswer > 4 ){
-            <Link to='/result'></Link>
-        }
     alert('내 선택은 ' + value);
     setAnswer([...answer,value]);
     setNumber(number + 1);
     }
     
+    if( number > 3 ){
+        return(
+            <Link to='/Result'>결과보기</Link>
+        )
+    }
+
     return (
         <div>
             <div>question {number + 1}</div>
