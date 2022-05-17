@@ -1,4 +1,4 @@
-import { Button } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import generateQuestion from "../GenerateQuestion/GenerateQuestion";
 
@@ -17,11 +17,15 @@ function Choice({
     
     if( number > 3 ){
         return(
-            <Link to='/Result'>결과보기</Link>
+            <Link to='/Result'>결과보기
+            </Link>
         )
     }
 
     return (
+        <Card>
+        <Card.Header as="h5">질문 {number + 1}</Card.Header>
+        <Card.Body>
         <div>
             <div>question {number + 1}</div>
         <Button variant="outline-primary" onClick={handleClick(generateQuestion()[number][0])}>
@@ -31,6 +35,9 @@ function Choice({
             {generateQuestion()[number][1]}  
         </Button>
         </div>
+        </Card.Body>
+        </Card>
+        
     )
 }
 
