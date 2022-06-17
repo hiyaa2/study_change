@@ -32,6 +32,7 @@ div {
   font-size: 24px;
   font-weight: 600;
   line-height: 72px;
+  margin-left: 40px;
 }
 
 .namecolor {
@@ -41,6 +42,11 @@ div {
 .jobcolor {
   color: #9F9F9F;
 }
+
+.ourteambox {
+  width: 210px;
+  height: 114px;
+}
 .slideshow-profile{
   display: flex;
   flex-direction: column;
@@ -48,8 +54,8 @@ div {
   align-items: center;
   overflow: hidden;
   position: relative;
-  width: 680px;
-  height: 400px;
+  width: 800px;
+  height: 444px;
   margin: 0 auto;
   transition: 0.5s;
 }
@@ -60,16 +66,9 @@ div {
   top: 0;
   display: flex;
   flex-direction: row;
-  width: 920px;
+  width: 1120px;
 }
 
-.profile-img {
-  display: flex;
-  flex-direction: row;
-  width: 200px;
-  height: 200px;
-  margin-right: 40px;
-}
 
 .page5image1 {
   width: 170px;
@@ -82,6 +81,8 @@ div {
   height: 170px;
   background-image: url('../../../public/img/page5profile1.png');
   background-size: cover;
+  background-position: center;
+
 }
 
 .page5image3 {
@@ -96,6 +97,7 @@ div {
   height: 170px;
   background-image: url('../../../public/img/page5profile3.png');
   background-size: cover;
+
 }
 
 .page5image5 {
