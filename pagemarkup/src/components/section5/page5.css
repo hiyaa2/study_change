@@ -1,0 +1,122 @@
+div {
+  transition: 0.5s;
+}
+
+.page5-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 95px;
+  width: 100vw;
+  margin: 0 auto;
+
+}
+
+.page5teamname-wrapper {
+  width: 181px;
+  height: 72px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #414141;
+  padding-bottom: 50px;
+}
+
+.page5active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.namecolor {
+  color: #414141;
+}
+
+.jobcolor {
+  color: #9F9F9F;
+}
+.slideshow-profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  width: 680px;
+  height: 400px;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+
+.profile-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  width: 920px;
+}
+
+.profile-img {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+  margin-right: 40px;
+}
+
+.page5image1 {
+  width: 170px;
+  height: 170px;
+  background-color: #ffffff;
+}
+
+.page5image2 {
+  width: 170px;
+  height: 170px;
+  background-image: url('../../../public/img/page5profile1.png');
+  background-size: cover;
+}
+
+.page5image3 {
+  width: 170px;
+  height: 170px;
+  background-image: url('../../../public/img/page5profile2.png');
+  background-size: cover;
+}
+
+.page5image4 {
+  width: 170px;
+  height: 170px;
+  background-image: url('../../../public/img/page5profile3.png');
+  background-size: cover;
+}
+
+.page5image5 {
+  width: 170px;
+  height: 170px;
+  background-color: #ffffff;
+}
+
+.profile-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 14px;
+  
+}
+
+.profile-button button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+  margin: 0 6px;
+}

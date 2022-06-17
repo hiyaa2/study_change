@@ -1,0 +1,77 @@
+.page6-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100vw;
+  padding-top: 107px;
+}
+
+.page6left-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 400px;
+  height: 219px;
+  padding-left: 225px;
+}
+
+.page6left-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #414141;
+  text-align: center;
+  padding-bottom: 17px;
+}
+
+.page6img {
+  width: 400px;
+  height: 130px;
+  background-image: url("../../../public/img/page6joinourteam.png");
+  background-size: cover;
+}
+
+.page6right-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 49px;
+  width: 382px;
+  height: 189px;
+  padding-right: 224px;
+  padding-top: 41px;
+
+}
+
+.page6right-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #414141;
+  padding-bottom: 33px;
+}
+
+.page6Applybutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  background: linear-gradient(97.74deg, #9FD685 33.31%, #F9DD03 85.33%);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #FFFFFF;
+  border: none;
+}
