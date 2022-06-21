@@ -1,0 +1,98 @@
+.aboutpage-wrapper{
+  min-width: 1440px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 170px;
+  padding-bottom: 48px;
+  align-items: flex-start;
+  padding-right: 670px;
+  padding-left: 80px;
+}
+
+.aboutvivasecond {
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  color: #888888;
+  
+}
+
+.aboutbutton-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.aboutbutton-wrapper button {
+  border-radius: 16px;
+  border: none;
+  width: 96px;
+  height: 46px;
+  font-family: 'Varela';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  background-color: #000000;
+  color: white; 
+}
+
+.aboutbutton-wrapper div {
+  font-family: 'Varela';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%; 
+}
+/* .aboutbutton1{
+  background-color: #000000;
+  color: white;
+}
+
+.aboutbutton2 {
+  background-color: white;
+  color: #444444;
+}
+
+.aboutbutton3 {
+  background-color: white;
+  color: #444444;
+}
+
+.aboutbutton4 {
+  background-color: white;
+  color: #444444;
+}
+
+.aboutbutton5 {
+  background-color: white;
+  color: #444444;
+} */
+
+.aboutbuttondiv2 {
+  padding-left: 44px;
+}
+
+.aboutbuttondiv3 {
+  padding-left: 76px;
+}
+
+.aboutbuttondiv4 {
+  padding-left: 76px;
+}
+
+.aboutbuttondiv5 {
+  padding-left: 76px;
+}
