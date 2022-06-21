@@ -1,0 +1,119 @@
+.page4-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-height: 381px;
+  width: 100vw;
+  margin: 0;
+  padding-top: 143px;
+}
+
+.page4thumnail-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: url("../../../public/img/page4thum.png"),linear-gradient(180deg, #9FD685 0%, #F9DD03 100%);
+  background-position: center;
+  width: 635px;
+  height: 381px;
+  max-width: 635px;
+}
+
+.page4firstthum-wrapper {
+
+  width: 282px;
+  height: 120px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: right;
+  color: #FFFFFF;
+  padding-top: 29px;
+  padding-left: 311px;
+  padding-bottom: 6px;
+  padding-right: 42px;
+
+}
+
+.page4secthum-wrapper {
+  width: 368px;
+  height: 144px;
+  padding-left: 225px;
+  padding-right: 42px;
+  padding-bottom: 32px;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  text-align: right;
+  color: #FFFFFF;
+
+}
+
+.page4thirdthum-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 45px;
+  padding-bottom: 26px;
+  padding-left: 524px;
+}
+
+.page4arrow1 {
+  padding-right: 18px;
+  cursor: pointer;
+}
+
+.page4arrow2 {
+  cursor: pointer;
+}
+
+.page4explain-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 242px;
+  height: 341px;
+  padding-left: 79px;
+  padding-right: 324px;
+  text-align: left;
+}
+
+.page4explainfirst-wrapper {
+  width: 242px;
+  height: 144px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #414141;
+  padding-bottom: 17px;
+}
+
+.page4explainsec-wrapper {
+  width: 185px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.page4explainsec-1 {
+  color: #414141;
+}
+
+.page4explainsec-2 {
+  color: #9F9F9F;
+}
+
+.page4explainsec-3 {
+  color: #9F9F9F;
+}
