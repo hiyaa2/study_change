@@ -1,0 +1,104 @@
+.plusthree-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.plusthree-left {
+  display: flex;
+  flex-direction: row;
+  background-color: orange;
+  width: 50%;
+  height: 100%;
+}
+
+.plusthree-right {
+  display: flex;
+  flex-direction: row;
+  background-color: greenyellow;
+  width: 50%;
+  height: 100%;
+}
+
+.plusleft-1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+
+.plusleft-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+.plusleft-3 {
+  width: 100%;
+  height: 75%;
+  background-color: orange;
+}
+
+.plusleft-4 {
+  width: 100%;
+  height: 25%;
+  background-color: palevioletred;
+}
+
+.plusleft-5 {
+  width: 100%;
+  height: 25%;
+  background-color: white;
+}
+
+.plusleft-6 {
+  width: 100%;
+  height: 75%;
+  background-color: green;
+}
+
+.plusright-1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+
+.plusright-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+
+.plusright-3 {
+  width: 100%;
+  height: 75%;
+  background-color: gray;
+}
+
+.plusright-4 {
+  width: 100%;
+  height: 25%;
+  background-color: fuchsia;
+}
+
+.plusright-5 {
+  width: 100%;
+  height: 25%;
+  background-color: blueviolet;
+}
+
+.plusright-6 {
+  width: 100%;
+  height: 25%;
+  background-color: blue;
+}
+
+

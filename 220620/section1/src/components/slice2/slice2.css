@@ -1,0 +1,16 @@
+.slice2-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+  
+.slice2first {
+  width: 100vw;
+  height: 50vh;
+  background-color: red;
+}
+  
+.slice2second {
+  width: 100vw;
+  height: 50vh;
+  background-color: blue;
+}
