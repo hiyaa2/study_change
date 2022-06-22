@@ -1,6 +1,17 @@
 .allpage {
-  min-width: 1440px;
-  min-height: 870px;
+  width: 100vw;
+  height: 100vh;
   margin : 0;
   background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* fortable */
+@media (max-width: 1279px) {
+  .allpage {
+    min-height: 100vh;
+  }
+  
 }

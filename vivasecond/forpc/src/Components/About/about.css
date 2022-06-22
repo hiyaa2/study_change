@@ -1,11 +1,10 @@
 .aboutpage-wrapper{
-  min-width: 1440px;
+  width: 100vw;
   margin: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
 }
 
 .about-wrapper {
@@ -35,19 +34,45 @@
   align-items: center;
   justify-content: center;
   padding-top: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.aboutbutton1 {
+  width: 96px;
+  height: 46px;
+  background-color: #444444;
+  color: white;
+}
+
+.aboutbutton2 {
+  width: 96px;
+  height: 46px;
+  background-color: white;
+  color: #444444;
+}
+
+.aboutbutton3 {
+  width: 96px;
+  height: 46px;
+  background-color: white;
+  color: #444444;
 }
 
 .aboutbutton-wrapper button {
   border-radius: 16px;
   border: none;
-  width: 96px;
-  height: 46px;
   font-family: 'Varela';
   font-weight: 400;
   font-size: 14px;
   line-height: 100%;
-  background-color: #000000;
-  color: white; 
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.about-wrapper button:hover {
+  background-color: #444444;
+  color: white;
 }
 
 .aboutbutton-wrapper div {
@@ -56,43 +81,142 @@
   font-size: 14px;
   line-height: 100%; 
 }
-/* .aboutbutton1{
-  background-color: #000000;
-  color: white;
-}
-
-.aboutbutton2 {
-  background-color: white;
-  color: #444444;
-}
-
-.aboutbutton3 {
-  background-color: white;
-  color: #444444;
-}
-
-.aboutbutton4 {
-  background-color: white;
-  color: #444444;
-}
-
-.aboutbutton5 {
-  background-color: white;
-  color: #444444;
-} */
 
 .aboutbuttondiv2 {
-  padding-left: 44px;
+  padding-left: 15px;
 }
 
 .aboutbuttondiv3 {
-  padding-left: 76px;
+  padding-left: 15px;
 }
 
 .aboutbuttondiv4 {
-  padding-left: 76px;
+  padding-left: 40px;
 }
 
 .aboutbuttondiv5 {
-  padding-left: 76px;
+  padding-left: 40px;
+  padding-right: 15px;
+}
+
+/* for small raptop */
+
+@media (max-width: 1439px) {
+  .aboutpage-wrapper{
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 24px;
+    padding-right: 598px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .aboutvivasecond {
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: #888888;
+    padding-bottom: 12px;
+  }
+  .aboutbutton-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+  }
+
+}
+
+@media (max-width: 1279px) {
+  .aboutpage-wrapper{
+    width: 100vw;
+    height: 104px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 1px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+  }
+
+  .aboutbutton-wrapper {
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutpage-wrapper{
+    width: 100vw;
+    height: 114px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 0px 1px 0px, rgba(27, 31, 35, 0.15) 0px -1px 0px 1px;
+  }
+  
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 16px;
+  }
+  
+  .aboutvivasecond {
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: #888888;
+    padding-bottom: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  
+  .aboutbutton-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    text-align: center;
+    cursor: pointer;
+  }
+  
 }
