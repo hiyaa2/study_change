@@ -1,0 +1,49 @@
+.animation1-wrapper {
+  width: 100vw;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000000;
+} 
+
+.animation1body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.animation1viva {
+  font-family: 'Varela';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  transform: rotate(90deg);
+  padding-left: 24px;
+  color: #FFFFFF;
+}
+
+.animation1center {
+  font-family: 'Poppins';
+  font-size: 76px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.animation1center:hover {
+  text-shadow: -2px 0px #3399FF, 0px 2px #3399FF, 2px 0px #3399FF, 0px -2px #3399FF;
+}
+
+.animation1second {
+  font-family: 'Varela';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  transform: rotate(90deg);
+  padding-left: 24px;
+  color: #FFFFFF;
+}

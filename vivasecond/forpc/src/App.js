@@ -1,17 +1,15 @@
 import './App.css';
-import Head from './Components/Head/head';
-import Intro from './Components/Intro/intro';
-import Body from './Components/Body/body';
-import About from './Components/About/about';
+import IntroPage from './introPage';
 
+import LoadingPage from './loading';
 function App() {
   return (
-    <div className="allpage">
-      <Head />
-      <Intro />
-      <Body />
-      <About />
+  <div className="allpage">
+    <div>  
+    <LoadingPage />    
+    <IntroPage />
     </div>
+  </div>
   );
 }
 
